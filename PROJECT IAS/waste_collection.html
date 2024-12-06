@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waste Collection</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4; /* Neutral primary color */
+      color: #333; /* Secondary text color */
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #ffffff; /* Secondary color */
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    .navbar .logo img {
+      width: 180px;
+      height: auto;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      padding: 0.5rem 0.8rem;
+      transition: all 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #4caf50; /* Accent color */
+    }
+
+    .navbar ul li a.btn-signup {
+      background-color: #4caf50; /* Accent color */
+      color: #ffffff;
+      border-radius: 5px;
+    }
+
+    .navbar ul li a.btn-signup:hover {
+      background-color: #388e3c; /* Darker accent shade */
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3rem 2rem;
+      background-color: #eaf4e7; /* Light green complementary color */
+    }
+
+    .hero .content {
+      max-width: 50%;
+      flex: 1;
+      margin-right: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      color: #4caf50; /* Accent color */
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      color: #555; /* Secondary text */
+    }
+
+    .hero .btn-read-more {
+      background-color: #4caf50; /* Accent color */
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero .btn-read-more:hover {
+      background-color: #388e3c; /* Darker accent */
+    }
+
+    .hero .image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* About Section */
+    .about {
+      padding: 2rem;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      color: #4caf50; /* Accent color */
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #555; /* Secondary text */
+      margin-bottom: 1.5rem;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #4caf50; /* Accent color */
+      color: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero .content {
+        max-width: 100%;
+        margin: 0 0 2rem;
+      }
+
+      .hero .image img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./waste_collection.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn-signup">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="hero">
+    <div class="content">
+      <h1>Waste Collection System</h1>
+      <p>
+        Join our mission to create a cleaner, greener environment. Recycle your waste responsibly and contribute to a sustainable future.
+      </p>
+      <a href="#about" class="btn-read-more">Read More</a> <!-- Anchor link to About section -->
+    </div>
+    <div class="image">
+      <img src="ana.jpg" alt="People recycling waste">
+    </div>
+  </main>
+<br><br><br><br><br><br>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Our Waste Collection System</h2>
+    <p>
+      At Anami Waste Management, we are dedicated to creating a cleaner and greener environment for our subdivision. Our waste collection system is designed to be both efficient and user-friendly, ensuring that every household can contribute to sustainability with ease. We understand the importance of timely and responsible waste disposal, which is why we have implemented a reliable system that guarantees regular and efficient waste pickups.
+    </p>
+    <p>
+      With a focus on convenience, our system allows homeowners to easily track collection schedules, make payments, and even report any issues with their waste services. We prioritize customer satisfaction and the environment, making sure that your waste is managed in the most responsible way possible. By choosing our system, you're not just managing your waste — you're making a positive impact on your community and the planet.
+    </p>
+    <h2>About Our System</h2>
+    <p>
+      Our Waste Management System is more than just a service — it's a step toward a cleaner, more sustainable future. Designed specifically for residents of Anami Homes, our system integrates modern technology to streamline the waste collection process, ensuring timely pickups, seamless payment tracking, and real-time notifications.
+    </p>
+    <p>
+      The system allows homeowners to easily monitor collection schedules, manage their waste-related payments, and access important updates through an intuitive online platform. We also provide features to report missed pickups and request extra services, ensuring that residents always have control over their waste management needs.
+    </p>
+    <p>
+      By using our system, you contribute to a more efficient, environmentally friendly community. Together, we can create a cleaner living space for everyone, making Anami Homes a model of sustainability and responsible waste management.
+    </p>
+  </section>
+
+  
+</body>
+</html>
